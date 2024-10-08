@@ -3,4 +3,4 @@
 - - 🌱 I’m currently learning C, Python and Data Structures And Algorithms
 - 📫 How to reach me : fedeleluigiiuliano@gmail.com
 - 😄 Pronouns: He/Him
-  
+-     Fun Fact: I love Star Wars and Yu-Gi-Oh!
