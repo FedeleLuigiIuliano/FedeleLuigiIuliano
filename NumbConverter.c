@@ -30,7 +30,7 @@ void ConvInt() {
     }
   }
     else {
-         printf("Unsopported base! It must be an integer in the range from 2 to 16!");
+         printf("Unsopported base! It must be an integer in the range from 2 to 16!\n");
          ConvInt();
     }
         
