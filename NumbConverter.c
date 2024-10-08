@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 #include <string.h>
-
-
+#include <windows.h>
+#include <unistd.h>
 
 void ConvInt() {
     int i = 0;
@@ -13,26 +13,27 @@ void ConvInt() {
     scanf("%d", &num);
     printf("Choose a base: ");
     scanf("%d", &base);
-
-    while (num > 0) {
+    if (b <= 16 && b > 1) {
+     while (num > 0) {
         int r = num % base;
         num = num / base;
-        if (r == 16) {
+        if (r > 9) {
             result[i++] = 'A' + r - 10;
-        } else if (r < 16){
+        } else {
             result[i++] = '0' + r;
         }
-        else if (r > 16){
-            printf("Base must be in a range from 2 to 16!");
-            sleep(2);
-            ConvInt();
-        }
-    }
+     }
     result[i] = '\0'; 
     printf("THE RESULT IS: ");
     for (int k = i - 1; k >= 0; k--) {
         printf("%c",result[k]);
     }
+  }
+    else {
+         printf("Unsopported base! It must be an integer in the range from 2 to 16!");
+         ConvInt();
+    }
+        
 }
 
 int main() {
