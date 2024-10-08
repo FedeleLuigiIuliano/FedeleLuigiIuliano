@@ -13,7 +13,7 @@ void ConvInt() {
     scanf("%d", &num);
     printf("Choose a base: ");
     scanf("%d", &base);
-    if (b <= 16 && b > 1) {
+    if (base <= 16 && base > 1) {
      while (num > 0) {
         int r = num % base;
         num = num / base;
