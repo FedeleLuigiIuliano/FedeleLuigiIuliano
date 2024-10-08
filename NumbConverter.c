@@ -54,8 +54,9 @@ int main() {
                 sleep(1);
             }
             on = false;
-        else
+        else {
             main();
+            }
         }
     }
     return 0;
