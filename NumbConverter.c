@@ -3,7 +3,7 @@
 #include <string.h>
 #include <windows.h>
 #include <unistd.h>
-                          //This code provides you the possibility to convert a number using an base, both given by the user suing a simple console based interface; 
+                          //This code provides you the possibility to convert a number using a base, both given by the user suing a simple console based interface; 
 void ConvInt() {
     int i = 0;            // index for the result array 
     char result[32];      // array used to store the reminders;
