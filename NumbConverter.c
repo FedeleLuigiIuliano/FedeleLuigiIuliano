@@ -19,10 +19,10 @@ void ConvInt() {
         num = num / base;
         if (r == 16) {
             result[i++] = 'A' + r - 10;
-        } else if (r<16){
+        } else if (r < 16){
             result[i++] = '0' + r;
         }
-        else {
+        else if (r > 16){
             printf("Base must be in a range from 2 to 16!");
             sleep(2);
             ConvInt();
