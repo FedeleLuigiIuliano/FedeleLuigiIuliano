@@ -3,10 +3,10 @@
 #include <string.h>
 #include <windows.h>
 #include <unistd.h>
-
+//This code provides you the possibility to convert a number using an input base; 
 void ConvInt() {
-    int i = 0;
-    char result[32];
+    int i = 0; //index for the result array 
+    char result[32]; //array used to store the reminders for the conversion
     int num;
     int base;
     printf("Enter the number to convert: ");
@@ -15,7 +15,7 @@ void ConvInt() {
     scanf("%d", &base);
     if (base <= 16 && base > 1) {
      while (num > 0) {
-        int r = num % base;
+        int r = num % base; //remainder 
         num = num / base;
         if (r > 9) {
             result[i++] = 'A' + r - 10;
@@ -26,7 +26,7 @@ void ConvInt() {
     result[i] = '\0'; 
     printf("THE RESULT IS: ");
     for (int k = i - 1; k >= 0; k--) {
-        printf("%c",result[k]);
+        printf("%c",result[k]); //visualize the array of the result in the reversed way
     }
   }
     else {
