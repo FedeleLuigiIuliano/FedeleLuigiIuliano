@@ -17,10 +17,15 @@ void ConvInt() {
     while (num > 0) {
         int r = num % base;
         num = num / base;
-        if (r > 9) {
+        if (r == 16) {
             result[i++] = 'A' + r - 10;
-        } else {
+        } else if (r<16){
             result[i++] = '0' + r;
+        }
+        else {
+            printf("Base must be in a range from 2 to 16!");
+            sleep(2);
+            ConvInt();
         }
     }
     result[i] = '\0'; 
