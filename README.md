@@ -1,6 +1,6 @@
-- 👋 Hi, I’m @FedeleLuigiIuliano
-- 👀 I’m interested in Computer Sciences And Engineering!
-- - 🌱 I’m currently learning C, Python and Data Structures And Algorithms
-- 📫 How to reach me : fedeleluigiiuliano@gmail.com
-- 😄 Pronouns: He/Him
--    Fun Fact: I love Star Wars and Yu-Gi-Oh!
+-  ✌️Hi, I’m @FedeleLuigiIuliano
+-  💻I’m interested in Computer Sciences And Engineering!
+-  🧑‍🎓I am currently learning C, Python and Data Structures And Algorithms
+-  📩How to reach me : fedeleluigiiuliano@gmail.com
+-  👦🏼Pronouns: He/Him
+-     Fun Fact: I love Star Wars and Yu-Gi-Oh!
